@@ -3,10 +3,10 @@ push-to-github:
   script:
     - git config --global user.email "kishore.kumar949464@gmail.com"
     - git config --global user.name "kishore1307"
-    - git clone https://gitlab.com/kishore1307/blog.git
+    - git clone https://github.com/kishore1307/blob.git
     - ls -ltr
-    - cd blog
-    - git remote add upstream https://github.com/kishore1307/blob.git
+    - cd blob
+    - git remote add upstream https://gitlab.com/kishore1307/blob.git
     - git fetch upstream
     - git checkout master
     - git merge upstream/master
