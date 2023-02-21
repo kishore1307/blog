@@ -2,7 +2,7 @@ sync-to-github:
   image: alpine/git
   script:
     - git clone --bare https://gitlab.com/kishore1307/blog.git
-    - cd blog
+    - cd blog.git
     - git push --mirror https://github.com/kishore1307/blob.git
   only:
     - master
