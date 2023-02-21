@@ -1,6 +1,8 @@
 sync-to-github:
   image: ubuntu:20.04
   script:
+    - apt-get update -y
+    - apt-get install git -y
     - git clone --bare https://gitlab.com/kishore1307/blog.git
     - cd blog.git
     - git push --mirror https://kishore1307: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@github.com/kishore1307/blob.git
