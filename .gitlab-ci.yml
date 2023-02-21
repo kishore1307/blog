@@ -3,8 +3,9 @@ sync-to-github:
   script:
     - apt-get update -y
     - apt-get install git -y
-    - git clone --bare https://gitlab.com/kishore1307/blog.git
-    - cd blog.git
-    - git push --mirror https://kishore1307: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@github.com/kishore1307/blog.git
+    - git clone -b master --single-branch https://gitlab.com/kishore1307/blog.git
+    - cd blog
+    - git pull
+    - git push --mirror https://kishore1307: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@github.com/kishore1307/blog.git
   only:
     - master
