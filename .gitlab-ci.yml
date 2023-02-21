@@ -6,6 +6,6 @@ sync-to-github:
     - git clone -b master --single-branch https://gitlab.com/kishore1307/blog.git
     - cd blog
     - git pull
-    - git push --mirror https://kishore1307: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@github.com/kishore1307/blog.git
+    - git push --mirror https://kishore1307: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@github.com/kishore1307/blog.git
   only:
     - master
