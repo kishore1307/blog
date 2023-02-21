@@ -5,6 +5,6 @@ sync-to-github:
     - apt-get install git -y
     - git clone --bare https://gitlab.com/kishore1307/blog.git
     - cd blog.git
-    - git push --mirror https://kishore1307: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@github.com/kishore1307/blob.git
+    - git push --mirror https://kishore1307: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@github.com/kishore1307/blog.git
   only:
     - master
