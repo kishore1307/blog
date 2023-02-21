@@ -1,5 +1,5 @@
 sync-to-github:
-  image: alpine/git
+  image: ubuntu:20.04
   script:
     - git clone --bare https://gitlab.com/kishore1307/blog.git
     - cd blog.git
